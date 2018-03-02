@@ -26,10 +26,12 @@ The compiler uses implicit resolution to find an instance that is the closest in
     - companion object of A<br />
     - companion object of super types<br /><br />
     
-In the typeclasses.sc file you see some examples (mainly based on: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html)
+In the typeclasses.sc file you see some examples.
 
 
 sources:<br />
+https://www.youtube.com/watch?v=1e9tcymPl7w
+
 https://www.youtube.com/watch?v=1e9tcymPl7w
 
 https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html  
