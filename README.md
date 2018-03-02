@@ -10,6 +10,7 @@ Type classes use implicits as a mechanism for matching instances with code that 
 The compiler uses implicit resolution to find an instance that is the closest in the scope.
 
 # Implicits resolution (how the compiler finds the implicits its need)
+
 * Explicit<br />
 <br />
 * Local defined implicits<br />
