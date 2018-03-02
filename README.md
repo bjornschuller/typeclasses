@@ -11,20 +11,20 @@ The compiler uses implicit resolution to find an instance that is the closest in
 
 # Implicits resolution (how the compiler finds the implicits its need)
 
-* Explicit<br />
+1). Explicit<br />
 <br />
-* Local defined implicits<br />
+2). Local defined implicits<br />
 <br />
-* Imported implicits<br />
+3). Imported implicits<br />
 <br />
-* Inherited implicits<br />
+4). Inherited implicits<br />
 <br />
-* in package object defined implicits<br />
+5). in package object defined implicits<br />
 <br />
-* Implicit scope:<br />
+6). Implicit scope:<br />
     - companion object of typeclass<br />
     - companion object of A<br />
-    - companion object of super types<br />
+    - companion object of super types<br /><br />
     
 In the typeclasses.sc file you see some examples (mainly based on: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html)
 
