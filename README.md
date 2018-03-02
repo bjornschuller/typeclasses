@@ -22,9 +22,9 @@ The compiler uses implicit resolution to find an instance that is the closest in
 * in package object defined implicits<br />
 <br />
 * Implicit scope:<br />
-    - companion object of typeclass
-    - companion object of A
-    - companion object of super types
+    - companion object of typeclass<br />
+    - companion object of A<br />
+    - companion object of super types<br />
     
 In the typeclasses.sc file you see some examples (mainly based on: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html)
 
