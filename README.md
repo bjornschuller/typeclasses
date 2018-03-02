@@ -9,12 +9,29 @@ order to extend them with the new functionality.
 Type classes use implicits as a mechanism for matching instances with code that uses them. Type classes come with all the benefits and costs related to implicits.
 The compiler uses implicit resolution to find an instance that is the closest in the scope.
 
+# Implicits resolution (how the compiler finds the implicits its need)
+* Explicit<br />
+<br />
+* Local defined implicits<br />
+<br />
+* Imported implicits<br />
+<br />
+* Inherited implicits<br />
+<br />
+* in package object defined implicits<br />
+<br />
+* Implicit scope:<br />
+    - companion object of typeclass
+    - companion object of A
+    - companion object of super types
+    
 In the typeclasses.sc file you see some examples (mainly based on: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html)
 
 
+sources:<br />
+https://www.youtube.com/watch?v=1e9tcymPl7w
 
-sources:
-https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html  !!
+https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html  
 
 https://typelevel.org/cats/typeclasses.html
 
